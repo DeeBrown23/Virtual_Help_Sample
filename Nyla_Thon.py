@@ -19,32 +19,32 @@ def send():
 	user = e.get().lower()
 
 	if (user == "hello"):
-		txt.insert(END, "\n" + "Bot -> Hi there, how can I help?")
+		txt.insert(END, "\n" + "NYLA -> Hi there, how can I help?")
 
 	elif (user == "hi" or user == "hii" or user == "hiiii"):
-		txt.insert(END, "\n" + "Bot -> Hi there, what can I do for you?")
+		txt.insert(END, "\n" + "NYLA -> Hi there, what can I do for you?")
 
 	elif (user == "how are you"):
-		txt.insert(END, "\n" + "Bot -> fine! and you")
+		txt.insert(END, "\n" + "NYLA -> fine! and you")
 
 	elif (user == "fine" or user == "i am good" or user == "i am doing good"):
-		txt.insert(END, "\n" + "Bot -> Great! how can I help you.")
+		txt.insert(END, "\n" + "NYLA -> Great! how can I help you.")
 
 	elif (user == "thanks" or user == "thank you" or user == "now its my time"):
-		txt.insert(END, "\n" + "Bot -> My pleasure !")
+		txt.insert(END, "\n" + "NYLA -> My pleasure !")
 
 	elif (user == "what do you sell" or user == "what kinds of items are there" or user == "have you something"):
-		txt.insert(END, "\n" + "Bot -> We have coffee and tea")
+		txt.insert(END, "\n" + "NYLA -> We have coffee and tea")
 
 	elif (user == "tell me a joke" or user == "tell me something funny" or user == "crack a funny line"):
 		txt.insert(
-			END, "\n" + "Bot -> What did the buffalo say when his son left for college? Bison.! ")
+			END, "\n" + "NYLA -> What did the buffalo say when his son left for college? Bison.! ")
 
 	elif (user == "goodbye" or user == "see you later" or user == "see yaa"):
-		txt.insert(END, "\n" + "Bot -> Have a nice day!")
+		txt.insert(END, "\n" + "NYLA -> Have a nice day!")
 
 	else:
-		txt.insert(END, "\n" + "Bot -> Sorry! I didn't understand that")
+		txt.insert(END, "\n" + "NYLA -> Sorry! I didn't understand that")
 
 	e.delete(0, END)
 
